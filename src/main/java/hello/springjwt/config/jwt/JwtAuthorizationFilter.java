@@ -21,7 +21,6 @@ import java.io.IOException;
 import java.util.Optional;
 
 // 시큐리티가 filter를 가지고 있는 그 필터중 BasicAuthorizationFilter라는 것이 있음
-// 권한이나 인증이 필요한 특정주소를 요청 했을 때 위 필터를 무조건 타게 되어 있음
 @Slf4j
 public class JwtAuthorizationFilter extends BasicAuthenticationFilter {
 
